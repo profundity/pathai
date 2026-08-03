@@ -30,8 +30,9 @@ Rule: an abstract is **flagged, not rejected**. Its verification conditions (see
 | 1 | CRISPR knockout | Shuts off production at the source (DNA level), permanently — no new functional protein can ever be made again; nothing to compensate or rebound from. |
 | 2 | Chemical degrader | Acts directly on existing protein, but doesn't stop production — needs sustained presence, and the cell can resist by upregulating production. |
 | 3 | siRNA / RNAi knockdown | Only reduces new protein synthesis (via mRNA degradation); doesn't touch existing protein at all, and effect is transient. |
+| 4 | Chemical inhibitor | Doesn't reduce protein abundance at all — only blocks catalytic activity while leaving the protein fully present, structurally available for network-level compensation (see §5 for the resulting result-direction asymmetry). |
 
-**Not yet ranked:** genetic knockout (non-CRISPR), CRISPRi, CRISPRa, splicing modulation, overexpression, dominant negative, mutant variant, chemical inhibitor, chemical activator, stimulus treatment, neutralizing antibody.
+**Not yet ranked:** genetic knockout (non-CRISPR), CRISPRi, CRISPRa, splicing modulation, overexpression, dominant negative, mutant variant, chemical activator, stimulus treatment, neutralizing antibody.
 
 ### Pairings that upgrade the claim type (not standalone rows)
 
