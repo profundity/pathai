@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/home/premsubramaniam/Downloads/Path AI Docs/.scripts/refresh_memory_snapshot.sh\" 2>/dev/null || true",
+            "statusMessage": "Refreshing memory snapshot..."
+          }
+        ]
+      }
+    ]
+  }
+}

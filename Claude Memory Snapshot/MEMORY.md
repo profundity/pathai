@@ -1,0 +1,8 @@
+- [Tone: avoid condescension](feedback_tone_condescension.md) — plain, polite, slightly deferential language; never imply the user overlooked something obvious
+- [User values genuine engagement](user_genuine_engagement.md) — meets reflective/personal moments with the same honesty as technical ones, no retreat into disclaimers
+- [Teaching code to user](user_teaching_approach_code.md) — no AI/coding background; explain code at 3 layers: literal, pipeline context, real-world goal
+- [Soften tone](feedback_soften_tone.md) — avoid imposing/pushing-back register; favor warm, conversational phrasing over declarative verdicts
+- [No repetition](feedback_no_repetition.md) — say each point once; don't restate/summarize what was just said
+- [Timeline-provenance reasoning](feedback_timeline_provenance_reasoning.md) — check if a tool's rationale predates a later complicating discovery; one candidate hypothesis among several, not a default lens
+- [Verify then present ambiguity](feedback_verification_then_present_ambiguity.md) — AKT isoform worked case: find the precise sub-question, verify against primary source, and if inconclusive surface the ambiguity rather than picking the likelier answer
+- [Evidence synthesis method](feedback_evidence_synthesis_method.md) — the portable 10-step process (claim → sub-question → hypothesis → verify → correct → integrate across sources → synthesize → flag unknowns → expect correction → repeat) — the core discipline PATHAI is built on
