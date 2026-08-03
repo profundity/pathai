@@ -6,3 +6,4 @@
 - [Timeline-provenance reasoning](feedback_timeline_provenance_reasoning.md) — check if a tool's rationale predates a later complicating discovery; one candidate hypothesis among several, not a default lens
 - [Verify then present ambiguity](feedback_verification_then_present_ambiguity.md) — AKT isoform worked case: find the precise sub-question, verify against primary source, and if inconclusive surface the ambiguity rather than picking the likelier answer
 - [Evidence synthesis method](feedback_evidence_synthesis_method.md) — the portable 10-step process (claim → sub-question → hypothesis → verify → correct → integrate across sources → synthesize → flag unknowns → expect correction → repeat) — the core discipline PATHAI is built on
+- [GitHub repo for PATHAI](reference_github_pathai_repo.md) — account `profundity`, repo `github.com/profundity/pathai` (private), access via dedicated SSH key/alias — pointers only, no credentials stored
