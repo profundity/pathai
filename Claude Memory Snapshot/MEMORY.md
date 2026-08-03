@@ -8,3 +8,4 @@
 - [Evidence synthesis method](feedback_evidence_synthesis_method.md) — the portable 10-step process (claim → sub-question → hypothesis → verify → correct → integrate across sources → synthesize → flag unknowns → expect correction → repeat) — the core discipline PATHAI is built on
 - [GitHub repo for PATHAI](reference_github_pathai_repo.md) — account `profundity`, repo `github.com/profundity/pathai` (private), access via dedicated SSH key/alias — pointers only, no credentials stored
 - [Always load rubric before grading](feedback_always_load_rubric_before_grading.md) — hard prerequisite: read intervention_grading_rubric.md and mechanistic_synthesis_case_log.md in full before grading any new PATHAI evidence, regardless of phrasing
+- [Paper lookup order](feedback_paper_lookup_order.md) — check Semantic Scholar API for openAccessPdf before trying publisher pages or generic search, once a DOI/PMID is known
