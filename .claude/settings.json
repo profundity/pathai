@@ -1,5 +1,16 @@
 {
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/home/premsubramaniam/Downloads/Path AI Docs/.scripts/inject_rubric_context.sh\" 2>/dev/null",
+            "statusMessage": "Loading PATHAI rubric and case log..."
+          }
+        ]
+      }
+    ],
     "Stop": [
       {
         "hooks": [
