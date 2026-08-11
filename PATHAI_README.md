@@ -1,6 +1,6 @@
 # PATHAI — Project Index
 
-**What this is:** PATHAI mines biomedical literature to build a mechanistic, evidence-graded biological knowledge graph — not a consensus pathway map like KEGG/Reactome, but a graph where every claim is graded by how strong the actual experiment behind it was (not just how confidently it was extracted), with contradictions preserved rather than flattened.
+**What this is:** PATHAI is built to fill a coverage gap in existing pathway databases (KEGG, Reactome, STRING, GO) by *reading* papers to build mechanistic understanding, not just surfacing what's already been curated into structured databases. That's a coverage gap, not a weighting bias: even a "perfect" equal-weight, non-popularity-biased reasoning system still hits a wall the databases themselves impose — some genes simply have no mechanistic vocabulary to draw on yet, regardless of how the gene list is processed upstream. The result is a mechanistic, evidence-graded biological knowledge graph — not a consensus pathway map, but a graph where every claim is graded by how strong the actual experiment behind it was (not just how confidently it was extracted), with contradictions preserved rather than flattened.
 
 If you're picking this up cold — including a future AI session with no memory of how this was built — read in this order:
 
