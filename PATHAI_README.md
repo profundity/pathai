@@ -7,8 +7,7 @@ If you're picking this up cold — including a future AI session with no memory 
 ## 1. Start here for the current, live deliverable
 - **`intervention_grading_rubric.md`** — the actual, living evidence-grading standard. This is the core output of the project so far: how to read a chunk (section-type awareness), general rules for reading text without being fooled by rhetoric, how to rank intervention techniques, the conditions that validate those rankings, and how to weigh pharmacological vs. genetic evidence against each other.
 - **`mechanistic_synthesis_case_log.md`** — the worked case(s) that built and justify the rubric's rules. Read this to see *why* each rubric rule exists, with real reasoning, real errors made and corrected, and real verification steps against actual literature.
-- **`evidence_training_schema.md`** — column format for turning rubric judgments into structured rows (gene, claim, function-in-context, activity type, evidence grade, etc.), the first step toward a gold-standard dataset at training scale.
-- **`evidence_training_examples.md`** — the schema applied to both existing worked cases (AKT/INY-03-041, ARID5A) as a proof of concept: 6 rows, 1 correctly-excluded manipulation, and a list of schema gaps the exercise surfaced (cross-row relationships, multi-outcome rows, primary-vs-secondary-source provenance).
+- **`evidence_training_schema.md`** — column format for turning rubric judgments into structured rows (gene, claim, function-in-context, activity type, evidence grade, etc.), the first step toward a gold-standard dataset at training scale. Not yet applied to any case.
 
 ## 2. Test data
 - **`pisk_mtor_seed_texts.txt`** — the seed corpus everything has been tested against: 10 text chunks across 3 real papers (PI3K/AKT/mTOR pathway). Deliberately narrow — see the case log and rubric for what this data can and can't yet prove.
