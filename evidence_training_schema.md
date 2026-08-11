@@ -15,9 +15,19 @@ Each row = one graded causal claim, in the format future training examples (and 
 | **Evidence grade** | Where it lands on the rubric's ranking (necessity only, necessity+sufficiency, etc.) |
 | **Confidence** | High/medium/low, with reasoning |
 | **Source (PMID/DOI)** | Traceable back to the actual paper |
+| **Section type** | Abstract vs. body text — caps confidence per rubric §1 |
+| **Claim type** | Necessity / sufficiency / necessity+sufficiency (rescue) — distinct from evidence grade, which ranks the technique itself |
+| **Rescue/add-back present** | Yes/no; if yes, prevention (co-transfected) vs. reversal (added after phenotype established) |
+| **Verification status** | Confirmed against primary source vs. still unconfirmed/ambiguous |
+| **Phenotype/outcome measured** | The actual downstream readout (e.g. IL-6 levels, apoptosis, tumor size) — separate from the causal claim itself |
+| **Species** | Mouse vs. human vs. other |
+| **Model system** | Cell line, primary cells, in vivo/mouse, patient tissue |
+| **Timepoint** | Acute vs. chronic, early vs. late — context can flip a claim's meaning over time |
+| **Contradicting evidence** | Flag if another logged claim conflicts with this one — preserves contradictions instead of flattening them |
+| **Curator notes** | Free-text escape hatch for anything that doesn't fit a column cleanly |
 
 ## Status
 Draft — not yet applied to any case. Next step: convert the two existing worked cases (AKT/INY-03-041, Ikeuchi/ARID5A) into this format as a proof of concept, per the small-steps plan.
 
-## Open question
-Whether a "context/cell type" column is needed as its own field, or is folded into "gene function, in this study's context" — flagged, not yet resolved.
+## Resolved
+The "context/cell type" open question is now covered by **Species**, **Model system**, and **Timepoint** as separate columns, rather than folded into "gene function, in this study's context."
