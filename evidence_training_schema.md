@@ -27,7 +27,12 @@ Each row = one graded causal claim, in the format future training examples (and 
 | **Curator notes** | Free-text escape hatch for anything that doesn't fit a column cleanly |
 
 ## Status
-Draft — not yet applied to any case. Next step: convert the two existing worked cases (AKT/INY-03-041, Ikeuchi/ARID5A) into this format as a proof of concept, per the small-steps plan.
+Applied to both existing worked cases as a proof of concept — see `evidence_training_examples.md`. Six rows produced (four from the AKT case, two from ARID5A), plus one manipulation correctly excluded (CRISPRa/EndoOE, no testable claim).
 
 ## Resolved
 The "context/cell type" open question is now covered by **Species**, **Model system**, and **Timepoint** as separate columns, rather than folded into "gene function, in this study's context."
+
+## Findings from the proof of concept (see evidence_training_examples.md for detail)
+- Compound prose cases correctly split into multiple rows — matches rubric §2's "split compound claims" rule.
+- The schema correctly refuses a row for manipulations with no testable claim (CRISPRa/EndoOE arm).
+- **Open gaps identified, not yet fixed:** no column for cross-row relationships (e.g. one row mechanistically explaining another); no rule for multi-outcome single-experiment rows (split vs. combine); no column distinguishing *how* a row's data was obtained (primary text vs. secondary summary) — this turned out to correlate with confidence and should probably be explicit rather than implicit.
