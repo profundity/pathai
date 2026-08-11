@@ -21,6 +21,8 @@ Each row = one graded causal claim, in the format future training examples (and 
 | **Rescue/add-back present** | Yes/no; if yes, prevention (co-transfected) vs. reversal (added after phenotype established) |
 | **Verification status** | Confirmed against primary source vs. still unconfirmed/ambiguous |
 | **Phenotype/outcome measured** | The actual downstream readout (e.g. IL-6 levels, apoptosis, tumor size) — separate from the causal claim itself |
+| **Assay/Method** | The specific experimental technique that generated the readout (e.g. MTT viability, Annexin V/flow cytometry, clonogenic assay, Western blot, qPCR, kinase assay). Supplemental/supporting assays (e.g. a Western confirming target knockdown alongside the main phenotypic assay) belong here too, noted as supporting rather than primary. |
+| **Endpoint** | The specific signal/number the assay produces (e.g. % viable cells, cleaved caspase-3 band intensity, Ct value) — distinct from the assay itself |
 | **Species** | Mouse vs. human vs. other |
 | **Model system** | Cell line, primary cells, in vivo/mouse, patient tissue |
 | **Timepoint** | Acute vs. chronic, early vs. late — context can flip a claim's meaning over time |
