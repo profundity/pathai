@@ -9,6 +9,7 @@ Each row = one graded causal claim, in the format future training examples (and 
 | **Gene function(s), canonical** | What the gene is popularly known for — may be citation-biased, not necessarily most relevant here |
 | **Gene function, in this study's context** | Which specific activity is actually operative in this claim/phenotype |
 | **Activity type tested** | The specific molecular action assayed — e.g. phosphorylation vs. DNA-binding vs. scaffolding — so a multifunctional gene (e.g. kinase + TF) isn't collapsed into one label; same gene can get separate rows for separate activities |
+| **Target engagement / isoform coverage** | For a paralog family or multi-target intervention, how evenly the technique actually hit each member — e.g. "uneven: AKT2/3 substantially reduced, AKT1 only ~50% at 72h." A negative result with poor coverage on one paralog is a different claim than a negative result with full coverage. |
 | **Technique used** | What was actually done to test it (e.g. CRISPR knockout) |
 | **Verb type** | Direct-action or outcome verb (rubric §2) |
 | **Direction/sign** | Activates or inhibits the downstream thing |
