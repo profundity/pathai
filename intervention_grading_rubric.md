@@ -34,6 +34,8 @@ Rule: an abstract is **flagged, not rejected**. Its verification conditions (see
 
 **Not yet ranked:** genetic knockout (non-CRISPR), CRISPRi, CRISPRa, splicing modulation, overexpression, dominant negative, mutant variant, chemical activator, stimulus treatment, neutralizing antibody.
 
+**Open question, not resolved:** the rank order above (chemical degrader > siRNA) reflects mechanistic directness (acts on existing protein vs. blocks only new synthesis), but it's arguable either way once other factors are weighed — degraders also leave new protein synthesis untouched and carry their own off-target risk depending on design (e.g. PROTAC linker/recruiter chemistry); siRNA's existing-protein persistence is time-limited by normal protein turnover, not permanent. Both carry a similar evidentiary burden regardless of rank — neither claim should be trusted without direct confirmation (e.g. Western blot) that the protein is actually reduced/gone. Flagged as unresolved, not a solved ranking.
+
 ### Pairings that upgrade the claim type (not standalone rows)
 
 **Rescue/add-back** isn't a silencing method, so it doesn't get its own rank on the table above — it always pairs with a base technique (siRNA + rescue, CRISPR + rescue). What it contributes isn't a confidence bonus on the base technique's existing claim — it changes what's actually being claimed.
