@@ -10,9 +10,11 @@ Each row = one graded causal claim, in the format future training examples (and 
 | **Gene function, in this study's context** | Which specific activity is actually operative in this claim/phenotype |
 | **Activity type tested** | The specific molecular action assayed — e.g. phosphorylation vs. DNA-binding vs. scaffolding — so a multifunctional gene (e.g. kinase + TF) isn't collapsed into one label; same gene can get separate rows for separate activities |
 | **Target engagement / isoform coverage** | For a paralog family or multi-target intervention, how evenly the technique actually hit each member — e.g. "uneven: AKT2/3 substantially reduced, AKT1 only ~50% at 72h." A negative result with poor coverage on one paralog is a different claim than a negative result with full coverage. |
+| **Dose tested vs. IC50** | *Pharmacological interventions only (chemical inhibitors/degraders) — not applicable to genetic techniques.* The concentration(s) actually used, expressed as fold-multiple over the compound's known IC50 for its target(s)/isoform(s). Lets you check whether a negative result could simply reflect under-dosing before reaching for a network-compensation explanation (see rubric §5). |
 | **Technique used** | What was actually done to test it (e.g. CRISPR knockout) |
 | **Verb type** | Direct-action or outcome verb (rubric §2) |
 | **Direction/sign** | Activates or inhibits the downstream thing |
+| **Outcome (this evidence alone)** | What this specific piece of evidence establishes or rules out, taken by itself — distinct from Claim (the statement being tested) and Confidence (how much to trust it). General-purpose, applies to every row regardless of technique. Does NOT include synthesis across multiple rows/papers — that belongs in `mechanistic_synthesis_case_log.md`, not here. |
 | **Evidence grade** | Where it lands on the rubric's ranking (necessity only, necessity+sufficiency, etc.) |
 | **Confidence** | High/medium/low, with reasoning |
 | **Source (PMID/DOI)** | Traceable back to the actual paper |
