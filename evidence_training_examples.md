@@ -61,3 +61,33 @@ Filled-in rows using the format defined in `evidence_training_schema.md`. Built 
 - **Timepoint:** 90-115h (HT144, SK-MEL28 specifically)
 - **Contradicting evidence:** Yes — Row 1 (same experiment, 4 other cell lines, null)
 - **Curator notes:** Worth flagging as a genuine cell-line-dependent effect rather than noise, precisely because dose adequacy is confirmed and MK2206's effect is directionally consistent across both exception lines.
+
+---
+
+## Source: PMID 37931033 — Figure 1 (siRNA-mediated knockdown of AKT1-3)
+
+*Rows 2-4 below are IN PROGRESS — only the columns marked complete below have been confirmed with the user. Remaining columns still to be filled in column-by-column. All three come from Figure 1, Panel A (proliferation/confluence assay across 6 cell lines: A375, HT144, SK-MEL28, WM793, MTG001, MTG004) and Panel B (knockdown-efficacy Western blot, A375 only).*
+
+**Verification notes established for all three rows (Panel B, flagged and accepted as acceptable — see rubric §4 and `feedback_flag_verification_gaps_then_ask.md`):**
+- Knockdown efficacy verified by Western blot in only 1 of 6 cell lines (A375) — accepted given combinatorial scope (6 lines × 7 siRNA combinations), does not weaken confidence in the universal Row 2 (sub-part 1) result specifically.
+- siAKT1 and siAKT2 blots each got mutual cross-reactivity checks (blotted against both AKT1 and AKT2 antibodies); siAKT3's blot only shows the AKT3 band, no cross-check against AKT1/AKT2 — accepted as acceptable.
+- AKT2 knockdown has slower kinetics (band still strong at 18h, gone by 24h) than AKT1/AKT3 (already visibly reduced at 18h) — a real, observed timing detail, plausibly (not confirmed) relevant to why siAKT1+3 is the one pairwise combo showing any effect (see Row 4 curator notes).
+
+### Row 2 (sub-part 1) — Simultaneous triple knockdown (siAKT1+2+3)
+- **Gene/entity:** AKT1/2/3 — COMPLETE
+- **Claim:** Simultaneous siAKT1-3 knockdown is associated with complete inhibition of proliferation in BRAF-mutant melanoma cells, across all 6 cell lines tested (p<0.0001). — COMPLETE
+- **Contradicting evidence:** *(not yet drafted)*
+- *(all other columns not yet started)*
+
+### Row 3 (sub-part 2) — Single knockdown (siAKT1, siAKT2, or siAKT3 alone)
+- **Gene/entity:** AKT1/2/3 (tested individually) — COMPLETE
+- **Claim:** In this study's 6 melanoma cell lines, siAKT1, siAKT2, or siAKT3 knockdown alone is associated with no change in proliferation relative to siCtrl. — COMPLETE
+- **Contradicting evidence:** Not tested here, but other literature may show single- or double-paralog AKT knockdown affecting growth in different cell/tissue contexts — this negative result is specific to these 6 BRAF-mutant melanoma lines, not a general claim about AKT paralog redundancy. — COMPLETE
+- *(all other columns not yet started)*
+
+### Row 4 (sub-part 3) — Pairwise knockdown (siAKT1+3, and other pairwise combos)
+- **Gene/entity:** AKT1/3 (pairwise); AKT1/2 and AKT2/3 also tested, no effect — COMPLETE
+- **Claim:** In this study's 6 melanoma cell lines, siAKT1+3 knockdown is associated with decreased proliferation in 3 of 6 lines tested (HT144, SK-MEL28, MTG004; p<0.0001), with no effect in the other 3 lines or in the other pairwise combinations (siAKT1+2, siAKT2+3) tested. — COMPLETE
+- **Contradicting evidence:** Cell-line-dependent within this same paper — the same siAKT1+3 knockdown gives opposite results (effect vs. no effect) depending on cell line, so this can't be generalized even within this study's own dataset, let alone to AKT paralog redundancy broadly. — COMPLETE
+- **Curator notes (partial, hypothesis flagged not confirmed):** The one annotated genotype difference available (WM793's Pten-/- status) does not explain the effect/no-effect split — WM793 falls in the no-effect group. Beyond that, an unconfirmed hypothesis: siAKT1+3 excludes AKT2 (the slower-kinetics paralog per Panel B), so AKT1 and AKT3 — both fast-kinetics — are both fully gone early, leaving AKT2 as the sole, untouched compensator from the start; siAKT1+2 and siAKT2+3 each include AKT2 as a target, and if AKT2's kinetics lag holds in combination too, a delayed knockdown could leave more residual protection during the critical window, explaining why those two combos show no effect anywhere. Not verified — Panel B only shows AKT2 kinetics for the single knockdown, not the pairwise combinations.
+- *(all other columns not yet started)*
