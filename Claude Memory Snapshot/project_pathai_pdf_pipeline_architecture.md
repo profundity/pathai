@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: ad1a57c3-d71f-40c2-b5d6-d4e65d1daa0c
-  modified: 2026-08-12T00:21:07.215Z
+  modified: 2026-08-12T00:29:14.826Z
 ---
 
 **The architecture, as separate, independently-retryable stages (not one monolithic script):**
@@ -23,3 +23,7 @@ metadata:
 - **Nanonets** — cloud document-processing API (upload a PDF, get structured extraction back). Solves the "parse this PDF into structured text" half of the pipeline, not the "get past a CAPTCHA to obtain the PDF" half — complementary to Thunderbit/Docparser, not a substitute.
 
 **How to apply:** reach for the Playwright/PyMuPDF pipeline once PATHAI moves from hand-verifying individual papers to batch-ingesting many that download cleanly. Reach for Thunderbit/Docparser specifically when a source is CAPTCHA-gated or otherwise bot-blocked — and note that's a task for the user to run themselves, not something to automate on Claude's end (see [[feedback-captcha-is-not-a-tooling-problem]]).
+
+**Specific open-source tools evaluated (Aug 2026):**
+- **python-pdf_web_scraper** (github.com/scottgriv/python-pdf_web_scraper) — BeautifulSoup (HTML parsing, finds PDF links) + urllib3 (downloads). No JS execution, no anti-bot handling at all — actually less capable than plain curl for a gated source. Only useful for the simplest case: static pages with plain `<a href="*.pdf">` links and no bot protection. A lighter-weight substitute for the Playwright discovery node in that narrow case, not a general solution.
+- **PMC-figure-downloader** (github.com/etowahadams/PMC-figure-downloader) — uses PMC's *official* Search API + Open Access Web Service API, not scraping. Well-built, but only works for papers actually in the PMC Open Access subset (check via `https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=<PMCID>` — returns `idIsNotOpenAccess` for papers that are merely free-to-read via NIH Public Access Policy but not OA-licensed, which is a common and non-obvious distinction). Also pulls figures from paper XML only — does not cover supplementary materials, which are separate binary files outside its data model. Good pattern to reuse for genuinely OA-subset papers; irrelevant for gated or supplementary-material cases.
