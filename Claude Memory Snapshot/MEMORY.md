@@ -11,6 +11,7 @@
 - [Paper lookup order](feedback_paper_lookup_order.md) — check Semantic Scholar API for openAccessPdf before trying publisher pages or generic search, once a DOI/PMID is known
 - [Acknowledge mistakes directly](feedback_acknowledge_mistakes_directly.md) — don't open corrections with "fair" or similar hedge words; state the error plainly
 - [Re-read rubric in long sessions](feedback_reread_rubric_in_long_sessions.md) — loading it once at session start isn't enough; re-read it fresh before each new verification task
+- [PATHAI drug reference pattern](project_pathai_drug_reference_pattern.md) — per-paper drug_info_table.md files in PMIDS/ are a reusable cross-paper resource; check existing ones before re-deriving a compound's mechanism
 - [PATHAI mission statement](project_pathai_mission.md) — coverage gap not weighting bias; "reading to build understanding" not "mining" — user-confirmed company blurb
 - [Consult before multi-step builds](feedback_consult_before_multistep_builds.md) — do item one of a batch/schema application, then stop for review, even under a general "do step 2" instruction
 - [Preprint ≠ published paper](feedback_preprint_vs_published_not_equivalent.md) — bioRxiv version isn't guaranteed to match the final peer-reviewed one; check title/gap, don't substitute without flagging
