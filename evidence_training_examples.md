@@ -18,7 +18,7 @@ Filled-in rows using the format defined in `evidence_training_schema.md`. Built 
 - **Verb type:** Direct-action ("inhibit")
 - **Direction/sign:** No effect
 - **Outcome (this evidence alone):** Dose confirmed adequate (per rubric §5 dose-check rule) — result is usable. In these 4 lines, AKT inhibition alone does not constrain proliferation, despite full target engagement.
-- **Evidence grade:** Rank 4 (chemical inhibitor)
+- **Evidence grade:** Rank 3 (chemical inhibitor)
 - **Confidence:** Moderate-high — dose-verified, direct assay, consistent across 4 independent cell lines
 - **Source (PMID/DOI):** 37931033, Supplementary Figure S1
 - **Section type:** Body text / supplementary figure (verified directly, not secondary summary)
@@ -47,7 +47,7 @@ Filled-in rows using the format defined in `evidence_training_schema.md`. Built 
 - **Verb type:** Direct-action
 - **Direction/sign:** Reduces proliferation (MK2206 only; GDC-0068 does not replicate this in HT144)
 - **Outcome (this evidence alone):** In a minority of cell lines (2/6), AKT inhibition by MK2206 specifically does constrain proliferation — inconsistent with the paper's own summary ("no significant effect... regardless of PTEN status"), which does not distinguish these two lines from the other four.
-- **Evidence grade:** Rank 4 (chemical inhibitor)
+- **Evidence grade:** Rank 3 (chemical inhibitor)
 - **Confidence:** Moderate — real, dose-adequate signal, but not replicated by GDC-0068 in the same cell line, so single-compound-specific, not confirmed AKT-class-wide
 - **Source (PMID/DOI):** 37931033, Supplementary Figure S1
 - **Section type:** Supplementary figure (primary, verified directly)

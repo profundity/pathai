@@ -28,13 +28,13 @@ Rule: an abstract is **flagged, not rejected**. Its verification conditions (see
 | Rank | Technique | One-line reason |
 |------|-----------|------------------|
 | 1 | CRISPR knockout | Shuts off production at the source (DNA level), permanently — no new functional protein can ever be made again; nothing to compensate or rebound from. |
-| 2 | Chemical degrader | Acts directly on existing protein, but doesn't stop production — needs sustained presence, and the cell can resist by upregulating production. |
-| 3 | siRNA / RNAi knockdown | Only reduces new protein synthesis (via mRNA degradation); doesn't touch existing protein at all, and effect is transient. |
-| 4 | Chemical inhibitor | Doesn't reduce protein abundance at all — only blocks catalytic activity while leaving the protein fully present, structurally available for network-level compensation (see §5 for the resulting result-direction asymmetry). |
+| 2 (tied) | Chemical degrader | Acts directly on existing protein, but doesn't stop production — needs sustained presence, and the cell can resist by upregulating production. Also carries its own off-target risk depending on design (e.g. PROTAC linker/recruiter chemistry). |
+| 2 (tied) | siRNA / RNAi knockdown | Only reduces new protein synthesis (via mRNA degradation) directly, but existing protein clears indirectly via normal turnover once synthesis stops — the gap with a degrader narrows or closes once enough time has passed relative to the protein's half-life before the phenotype is scored. |
+| 3 | Chemical inhibitor | Doesn't reduce protein abundance at all — only blocks catalytic activity while leaving the protein fully present, structurally available for network-level compensation (see §5 for the resulting result-direction asymmetry). |
 
 **Not yet ranked:** genetic knockout (non-CRISPR), CRISPRi, CRISPRa, splicing modulation, overexpression, dominant negative, mutant variant, chemical activator, stimulus treatment, neutralizing antibody.
 
-**Open question, not resolved:** the rank order above (chemical degrader > siRNA) reflects mechanistic directness (acts on existing protein vs. blocks only new synthesis), but it's arguable either way once other factors are weighed — degraders also leave new protein synthesis untouched and carry their own off-target risk depending on design (e.g. PROTAC linker/recruiter chemistry); siRNA's existing-protein persistence is time-limited by normal protein turnover, not permanent. Both carry a similar evidentiary burden regardless of rank — neither claim should be trusted without direct confirmation (e.g. Western blot) that the protein is actually reduced/gone. Flagged as unresolved, not a solved ranking.
+**Rationale for the tie:** chemical degrader and siRNA/RNAi knockdown carry the same evidentiary burden — neither claim should be trusted without direct confirmation (e.g. Western blot) that the protein is actually reduced/gone, timed appropriately relative to when the phenotype is scored. Neither technique dominates the other once both directions are weighed: a degrader acts faster on existing protein but leaves new synthesis untouched and carries its own off-target risk; siRNA only blocks new synthesis directly but existing protein still clears via normal turnover, and that gap closes with enough elapsed time. Ranked equal rather than picking a winner.
 
 ### Pairings that upgrade the claim type (not standalone rows)
 
