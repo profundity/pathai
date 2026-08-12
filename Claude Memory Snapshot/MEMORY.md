@@ -17,3 +17,4 @@
 - [Preprint ≠ published paper](feedback_preprint_vs_published_not_equivalent.md) — bioRxiv version isn't guaranteed to match the final peer-reviewed one; check title/gap, don't substitute without flagging
 - [CAPTCHA is not a tooling problem](feedback_captcha_is_not_a_tooling_problem.md) — once a real CAPTCHA appears, switching automation libraries won't help; don't build auto-CAPTCHA-solving, ask the user to grab the file instead
 - [PATHAI PDF pipeline architecture](project_pathai_pdf_pipeline_architecture.md) — modular scraper/detector/download/extraction nodes for future batch paper-ingestion, once past hand-by-hand pace
+- [Show figure panels inline](feedback_show_figure_panels_inline.md) — crop and Read the specific panel automatically when discussing it; save crops into the project folder, not scratchpad
