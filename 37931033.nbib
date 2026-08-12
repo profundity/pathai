@@ -1,0 +1,192 @@
+
+PMID- 37931033
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20240306
+LR  - 20260628
+IS  - 1538-8514 (Electronic)
+IS  - 1535-7163 (Print)
+IS  - 1535-7163 (Linking)
+VI  - 23
+IP  - 3
+DP  - 2024 Mar 4
+TI  - Genetic Silencing of AKT Induces Melanoma Cell Death via mTOR Suppression.
+PG  - 301-315
+LID - 10.1158/1535-7163.MCT-23-0474 [doi]
+AB  - Aberrant activation of the PI3K-AKT pathway is common in many cancers, including 
+      melanoma, and AKT1, 2 and 3 (AKT1-3) are bona fide oncoprotein kinases with 
+      well-validated downstream effectors. However, efforts to pharmacologically 
+      inhibit AKT have proven to be largely ineffective. In this study, we observed 
+      paradoxical effects following either pharmacologic or genetic inhibition of 
+      AKT1-3 in melanoma cells. Although pharmacological inhibition was without effect, 
+      genetic silencing of all three AKT paralogs significantly induced melanoma cell 
+      death through effects on mTOR. This phenotype was rescued by exogenous AKT1 
+      expression in a kinase-dependent manner. Pharmacological inhibition of PI3K and 
+      mTOR with a novel dual inhibitor effectively suppressed melanoma cell 
+      proliferation in vitro and inhibited tumor growth in vivo. Furthermore, this 
+      single-agent-targeted therapy was well-tolerated in vivo and was effective 
+      against MAPK inhibitor-resistant patient-derived melanoma xenografts. These 
+      results suggest that inhibition of PI3K and mTOR with this novel dual inhibitor 
+      may represent a promising therapeutic strategy in this disease in both the 
+      first-line and MAPK inhibitor-resistant setting.
+CI  - (c)2023 American Association for Cancer Research.
+FAU - Parkman, Gennie L
+AU  - Parkman GL
+AUID- ORCID: 0000-0001-9432-4353
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+AD  - Department of Oncological Sciences, University of Utah Health Sciences Center, 
+      Salt Lake City, Utah.
+FAU - Turapov, Tursun
+AU  - Turapov T
+AUID- ORCID: 0000-0002-7375-5565
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Kircher, David A
+AU  - Kircher DA
+AUID- ORCID: 0000-0003-4122-0336
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+AD  - Department of Oncological Sciences, University of Utah Health Sciences Center, 
+      Salt Lake City, Utah.
+FAU - Burnett, William J
+AU  - Burnett WJ
+AUID- ORCID: 0000-0002-1536-9033
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Stehn, Christopher M
+AU  - Stehn CM
+AUID- ORCID: 0000-0003-2911-1954
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - O'Toole, Kayla
+AU  - O'Toole K
+AUID- ORCID: 0000-0001-7627-695X
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+AD  - Department of Oncological Sciences, University of Utah Health Sciences Center, 
+      Salt Lake City, Utah.
+FAU - Culver, Katie M
+AU  - Culver KM
+AUID- ORCID: 0009-0000-8878-2905
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Chadwick, Ashley T
+AU  - Chadwick AT
+AUID- ORCID: 0009-0007-1204-9003
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Elmer, Riley C
+AU  - Elmer RC
+AUID- ORCID: 0000-0002-6080-441X
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Flaherty, Ryan
+AU  - Flaherty R
+AUID- ORCID: 0009-0004-5505-832X
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Stanley, Karly A
+AU  - Stanley KA
+AUID- ORCID: 0000-0002-2172-1910
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Foth, Mona
+AU  - Foth M
+AUID- ORCID: 0000-0001-6507-8114
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Lum, David H
+AU  - Lum DH
+AUID- ORCID: 0000-0002-0159-8724
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Judson-Torres, Robert L
+AU  - Judson-Torres RL
+AUID- ORCID: 0000-0002-6559-0553
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+AD  - Department of Oncological Sciences, University of Utah Health Sciences Center, 
+      Salt Lake City, Utah.
+AD  - Department of Dermatology, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Friend, John E
+AU  - Friend JE
+AUID- ORCID: 0000-0001-9854-5583
+AD  - Kazia Therapeutics, Sydney, Australia.
+FAU - VanBrocklin, Matthew W
+AU  - VanBrocklin MW
+AUID- ORCID: 0000-0003-0114-3495
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+AD  - Department of Oncological Sciences, University of Utah Health Sciences Center, 
+      Salt Lake City, Utah.
+AD  - Department of Surgery, University of Utah Health Sciences Center, Salt Lake City, 
+      Utah.
+FAU - McMahon, Martin
+AU  - McMahon M
+AUID- ORCID: 0000-0003-2812-1042
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+AD  - Department of Oncological Sciences, University of Utah Health Sciences Center, 
+      Salt Lake City, Utah.
+AD  - Department of Dermatology, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+FAU - Holmen, Sheri L
+AU  - Holmen SL
+AUID- ORCID: 0000-0002-6411-6032
+AD  - Huntsman Cancer Institute, University of Utah Health Sciences Center, Salt Lake 
+      City, Utah.
+AD  - Department of Oncological Sciences, University of Utah Health Sciences Center, 
+      Salt Lake City, Utah.
+AD  - Department of Surgery, University of Utah Health Sciences Center, Salt Lake City, 
+      Utah.
+LA  - eng
+GR  - T32 CA265782/CA/NCI NIH HHS/United States
+GR  - UM1 TR004409/TR/NCATS NIH HHS/United States
+GR  - R01 CA176839/CA/NCI NIH HHS/United States
+GR  - S10 OD026959/OD/NIH HHS/United States
+GR  - T32 CA093247/CA/NCI NIH HHS/United States
+GR  - R01 CA121118/CA/NCI NIH HHS/United States
+GR  - F31 CA254307/CA/NCI NIH HHS/United States
+GR  - P30 CA042014/CA/NCI NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PL  - United States
+TA  - Mol Cancer Ther
+JT  - Molecular cancer therapeutics
+JID - 101132535
+RN  - EC 2.7.11.1 (Proto-Oncogene Proteins c-akt)
+RN  - EC 2.7.1.- (Phosphatidylinositol 3-Kinases)
+RN  - 0 (Phosphoinositide-3 Kinase Inhibitors)
+RN  - EC 2.7.11.1 (TOR Serine-Threonine Kinases)
+SB  - IM
+MH  - Humans
+MH  - *Proto-Oncogene Proteins c-akt/metabolism
+MH  - Signal Transduction
+MH  - *Melanoma/drug therapy/genetics/pathology
+MH  - Phosphatidylinositol 3-Kinases/metabolism
+MH  - Phosphoinositide-3 Kinase Inhibitors/pharmacology
+MH  - Cell Line, Tumor
+MH  - TOR Serine-Threonine Kinases/metabolism
+MH  - Cell Proliferation
+MH  - Cell Death
+PMC - PMC10932877
+MID - NIHMS1943930
+COIS- Declaration of interests: JE Friend is an employee of Kazia Therapeutics. All 
+      other authors declare no potential conflicts of interest.
+EDAT- 2023/11/06 18:41
+MHDA- 2024/03/06 06:43
+PMCR- 2024/09/04
+CRDT- 2023/11/06 14:33
+PHST- 2023/07/24 00:00 [received]
+PHST- 2023/09/08 00:00 [revised]
+PHST- 2023/10/30 00:00 [accepted]
+PHST- 2024/03/06 06:43 [medline]
+PHST- 2023/11/06 18:41 [pubmed]
+PHST- 2023/11/06 14:33 [entrez]
+PHST- 2024/09/04 00:00 [pmc-release]
+AID - 730009 [pii]
+AID - 10.1158/1535-7163.MCT-23-0474 [doi]
+PST - ppublish
+SO  - Mol Cancer Ther. 2024 Mar 4;23(3):301-315. doi: 10.1158/1535-7163.MCT-23-0474.
