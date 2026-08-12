@@ -19,3 +19,4 @@
 - [PATHAI PDF pipeline architecture](project_pathai_pdf_pipeline_architecture.md) — modular scraper/detector/download/extraction nodes for future batch paper-ingestion, once past hand-by-hand pace
 - [Show figure panels inline](feedback_show_figure_panels_inline.md) — crop and Read the specific panel automatically when discussing it; save crops into the project folder, not scratchpad
 - [Flag verification gaps, then ask](feedback_flag_verification_gaps_then_ask.md) — surface scope/rigor/kinetics gaps and wait for OK rather than deciding unilaterally; don't call complex-but-clean data "messy"
+- [Orthogonal specificity control](feedback_orthogonal_specificity_control.md) — look for a readout outside the perturbed pathway (not just loading control or downstream effector) as specificity evidence
