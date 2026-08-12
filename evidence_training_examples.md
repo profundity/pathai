@@ -33,6 +33,7 @@ Filled-in rows using the format defined in `evidence_training_schema.md`. Built 
 - **Timepoint:** 90-300h depending on line
 - **Contradicting evidence:** Yes — see Row 1b (same experiment, 2 other cell lines)
 - **Curator notes:** GDC-0941 (PI3K inhibitor, different target) is the visible outlier in most panels — likely driving the `****` significance markers, not the AKT inhibitors.
+- **Curator notes (cross-row, drug-vs-genetic tie-breaker) *:** Conflicts with Row 2 (Figure 1, simultaneous siAKT1-3 knockdown — complete inhibition of proliferation, universal across all 6 lines) on the same target/system. Per rubric §5 tie-breaker rule, Row 2's genetic result is trusted by default — but flagged `*` per the §5 scaffold-function caveat, not resolved by assumption. See Row 2's matching note for the full reasoning.
 
 ### Row 1b — AKT inhibition, partial effect (2/6 cell lines: HT144, SK-MEL28)
 *(Flagged by the user as overkill relative to its evidentiary weight — left in for now, candidate for trimming/merging later.)*
@@ -76,7 +77,8 @@ Filled-in rows using the format defined in `evidence_training_schema.md`. Built 
 ### Row 2 (sub-part 1) — Simultaneous triple knockdown (siAKT1+2+3)
 - **Gene/entity:** AKT1/2/3 — COMPLETE
 - **Claim:** Simultaneous siAKT1-3 knockdown is associated with complete inhibition of proliferation in BRAF-mutant melanoma cells, across all 6 cell lines tested (p<0.0001). — COMPLETE
-- **Contradicting evidence:** *(not yet drafted)*
+- **Contradicting evidence:** None within this dataset — this is the one result in Figure 1 with no cell-line exceptions. — COMPLETE
+- **Curator notes (cross-row, drug-vs-genetic tie-breaker) *:** Conflicts with Row 1 (pharmacological AKT inhibition, MK2206/GDC-0068, null result in 4/6 lines) on the same target/system. Per rubric §5 tie-breaker rule, genetic silencing (this row) is trusted over the drug's null result by default — but flagged with `*` per the §5 scaffold-function caveat: this dataset alone doesn't establish whether the discrepancy is network compensation around the drug's still-present protein, or a non-catalytic (scaffold/protein-presence) requirement the drugs can't touch by design. Not resolved here — see rubric §5 for what would resolve it (e.g. a kinase-dead AKT rescue).
 - *(all other columns not yet started)*
 
 ### Row 3 (sub-part 2) — Single knockdown (siAKT1, siAKT2, or siAKT3 alone)
