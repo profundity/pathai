@@ -18,3 +18,4 @@
 - [CAPTCHA is not a tooling problem](feedback_captcha_is_not_a_tooling_problem.md) — once a real CAPTCHA appears, switching automation libraries won't help; don't build auto-CAPTCHA-solving, ask the user to grab the file instead
 - [PATHAI PDF pipeline architecture](project_pathai_pdf_pipeline_architecture.md) — modular scraper/detector/download/extraction nodes for future batch paper-ingestion, once past hand-by-hand pace
 - [Show figure panels inline](feedback_show_figure_panels_inline.md) — crop and Read the specific panel automatically when discussing it; save crops into the project folder, not scratchpad
+- [Flag verification gaps, then ask](feedback_flag_verification_gaps_then_ask.md) — surface scope/rigor/kinetics gaps and wait for OK rather than deciding unilaterally; don't call complex-but-clean data "messy"
