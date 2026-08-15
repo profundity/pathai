@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: A4 landscape; margin: 12mm; }
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #111; }
+  h1 { font-size: 16px; margin-bottom: 2px; }
+  h2 { font-size: 13px; margin-top: 22px; margin-bottom: 6px; border-bottom: 1px solid #999; padding-bottom: 2px; }
+  p.src { font-size: 10px; color: #555; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; table-layout: fixed; margin-bottom: 10px; }
+  th, td { border: 1px solid #888; padding: 4px 6px; text-align: left; word-wrap: break-word; vertical-align: top; }
+  th { background: #2c3e50; color: #fff; font-weight: bold; }
+  tr:nth-child(even) td { background: #f4f6f7; }
+  td.effect { background: #f9c9c9; font-weight: bold; }
+  td.noeffect { background: #dff0d8; }
+  td.na { background: #eee; color: #888; }
+  td.confirmed { background: #dff0d8; font-weight: bold; }
+  p.note { font-size: 10px; color: #333; margin: 4px 0 0 0; }
+  p.gap { font-size: 10.5px; background: #fff3cd; border: 1px solid #ffe08a; padding: 6px 8px; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<h1>PMID 37931033 — Figure 1 Data Tables (as analyzed)</h1>
+<p class="src">Parkman et al., Mol Cancer Ther 2024, Figure 1 (Panels A–D) and Supplementary Figures S3–S4. Read directly from the primary figures. See evidence_training_examples.md Rows 2-4 for the full graded/curated version.</p>
+
+<h2>Table 1 — Figure 1A: Proliferation (confluence assay), all 6 cell lines × 8 conditions</h2>
+<table>
+<tr>
+  <th style="width:20%">Condition</th>
+  <th>A375</th><th>HT144</th><th>SK-MEL28</th><th>WM793 (Pten-/-)</th><th>MTG001</th><th>MTG004</th>
+</tr>
+<tr><td>siAKT1 alone</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td></tr>
+<tr><td>siAKT2 alone</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td></tr>
+<tr><td>siAKT3 alone</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td></tr>
+<tr><td>siAKT1+2 (AKT3 intact)</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td></tr>
+<tr><td>siAKT2+3 (AKT1 intact)</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td></tr>
+<tr><td>siAKT1+3 (AKT2 intact)</td><td class="noeffect">No effect</td><td class="effect">Effect</td><td class="effect">Effect</td><td class="noeffect">No effect</td><td class="noeffect">No effect</td><td class="effect">Effect</td></tr>
+<tr><td>siAKT1+2+3 (all silenced)</td><td class="effect">Effect</td><td class="effect">Effect</td><td class="effect">Effect</td><td class="effect">Effect</td><td class="effect">Effect</td><td class="effect">Effect</td></tr>
+</table>
+<p class="note"><b>Pattern:</b> AKT1 alone and AKT3 alone are each sufficient in all 6 lines. AKT2 alone is sufficient in only 3 of 6 lines (A375, WM793, MTG001) and insufficient in the other 3 (HT144, SK-MEL28, MTG004). Triple knockdown is the only condition with zero exceptions.</p>
+
+<h2>Table 2 — Figure 1D: Cell death (Cytotox Red assay), A375 only</h2>
+<table>
+<tr><th style="width:30%">Condition</th><th style="width:20%">Cell death observed?</th><th>Notes</th></tr>
+<tr><td>Staurosporine (positive control)</td><td class="effect">Yes — gradual increase</td><td>Pan-kinase inhibitor, established cytotoxic control</td></tr>
+<tr><td>siCtrl (negative control)</td><td class="noeffect">No</td><td>Baseline</td></tr>
+<tr><td>siAKT1+2+3 (triple knockdown)</td><td class="effect">Yes — dramatic increase at ~22h</td><td>Comparable magnitude to staurosporine</td></tr>
+<tr><td>siAKT1+2+3 + WT mouse Akt1 (rescue)</td><td class="noeffect">No — rescued</td><td>Death abrogated by AKT1 reintroduction</td></tr>
+</table>
+<p class="note">No pairwise condition (e.g. siAKT1+3) was tested in the death assay — only proliferation (Table 1) was measured for pairwise combinations.</p>
+
+<h2>Table 3 — Verification coverage (Figure 1B/C + Supplementary Figure S3)</h2>
+<table>
+<tr><th>Cell line</th><th>Knockdown confirmed</th><th>Method</th><th>Cross-reactivity checked (all 3 paralogs)</th><th>Activity readout</th></tr>
+<tr><td>A375</td><td class="confirmed">Yes</td><td>Western blot</td><td>Partial (siAKT1, siAKT2 only)</td><td>P-AKT(S473), Fig 1C</td></tr>
+<tr><td>WM793</td><td class="confirmed">Yes</td><td>Western blot</td><td class="na">No (siAKT3 blot shows AKT3 band only)</td><td>P-PRAS40</td></tr>
+<tr><td>HT144</td><td class="confirmed">Yes</td><td>Western blot</td><td class="noeffect">Yes (all 3 conditions × all 3 antibodies)</td><td>P-PRAS40</td></tr>
+<tr><td>MTG001</td><td class="confirmed">Yes</td><td>qPCR</td><td class="na">N/A (qPCR, not blot)</td><td class="na">Not tested</td></tr>
+<tr><td>MTG004</td><td class="confirmed">Yes</td><td>qPCR</td><td class="na">N/A (qPCR, not blot)</td><td class="na">Not tested</td></tr>
+<tr><td>SK-MEL28</td><td class="na">Not found</td><td class="na">—</td><td class="na">—</td><td class="na">—</td></tr>
+</table>
+
+<h2>Table 4 — Supplementary Figure S4: mouse-specificity control (YUMM1.1, mouse cell line)</h2>
+<table>
+<tr><th style="width:55%">Condition</th><th>Effect on mouse AKT expression/activity?</th></tr>
+<tr><td>Human-specific siAKT1, siAKT2, siAKT3, and all combinations (including triple)</td><td class="noeffect">No effect — confirms siRNAs are human-specific, don't cross-react with mouse AKT (P-AKT/P-PRAS40 blot unchanged vs. siCtrl)</td></tr>
+</table>
+<p class="note">Validates that the mouse AKT1 construct used in the Figure 1C-D rescue is genuinely resistant to the human-specific siRNAs, not itself being silenced.</p>
+
+<p class="gap"><b>Key gaps/flags established during analysis</b> (see evidence_training_examples.md for full curator notes): Rescue-construct data exists only for AKT1, despite the paper's text stating all three paralogs were tested and concluding "any one paralog...can compensate for the other two." Endogenous pairwise-knockdown data (Table 1) independently supports AKT1 and AKT3 standalone sufficiency in all lines, and shows AKT2 standalone sufficiency is cell-line-dependent. Cell death (Table 2) was only tested for the triple-knockdown condition — reduced proliferation under partial knockdown was never shown to translate to actual cell death in any line.</p>
+
+</body>
+</html>
