@@ -13,7 +13,7 @@ Table: Shows proliferation (% of siRNA non-targeting control) / death-marker (no
 | siK3 | 100/0.10 | 100/0.12 | 99/0.11 | 99/0.10 | 101/0.11 | 100/0.09 |
 | siK1+siK2 | 99/0.12 | 100/0.10 | 100/0.11 | 101/0.11 | 99/0.09 | 100/0.10 |
 | siK2+siK3 | 100/0.11 | 99/0.10 | 100/0.10 | 100/0.12 | 100/0.10 | 101/0.11 |
-| siK1+siK3 | 98/0.08 | 45/0.25 | 52/0.18 | 95/0.10 | 101/0.15 | 40/0.25 |
+| siK1+siK3 | 98/0.08 | 45/0.40 | 52/0.45 | 95/0.10 | 101/0.15 | 40/0.55 |
 | siK1+siK2+siK3 | 8/0.82 | 5/0.91 | 6/0.88 | 9/0.79 | 7/0.85 | 4/0.93 |
 
 A curative response in a given line is defined as death-marker exceeding 0.60 in that line.  Assume that this model is completely translatable 1:1 to human patients, where L1 - L6 are different patients and can be treated as completely equivalent to that cell line. The numbers in patients are tumor proliferation (%, where <10% is full tumor growth inhibition; death-marker = tumor cell death normalized to a fully curative positive control whose death marker=1.00)
